@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>yorizori</name>
+  <version>0.1.0</version>
+  <description>Yorizori Robot Arm Control and Cooking Automation Package</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>pymycobot</exec_depend>
+  <exec_depend>machine</exec_depend> <!-- 서보 제어 관련 의존성 추가 -->
+  
+  <build_depend>ament_python</build_depend>
+  <exec_depend>ament_python</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
